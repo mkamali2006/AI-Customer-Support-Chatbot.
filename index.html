@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Store - Customer Support</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <div class="chat-container">
+        <header class="chat-header">
+            <div class="bot-icon">🤖</div>
+            <div>
+                <h1>Smart Store Assistant</h1>
+                <p>Customer Support Chatbot</p>
+            </div>
+        </header>
+
+        <main id="chat-box" class="chat-box">
+            <div class="message bot-message">
+                Hello! Welcome to Smart Store.
+                Ask me about products, prices, delivery, or working hours.
+            </div>
+        </main>
+
+        <form id="chat-form" class="chat-form">
+            <input
+                type="text"
+                id="user-input"
+                placeholder="Type your question..."
+                autocomplete="off"
+                required
+            >
+            <button type="submit">Send</button>
+        </form>
+
+        <footer>
+            <p>Powered by Python and Flask</p>
+        </footer>
+    </div>
+
+    <script src="/static/script.js"></script>
+</body>
+</html>
